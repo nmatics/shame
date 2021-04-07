@@ -1,0 +1,2068 @@
+{
+  "symbol": "IBM",
+  "name": "International Business Machines Corporation",
+  "description": "International Business Machines Corporation provides integrated solutions and services worldwide. Its Cloud & Cognitive Software segment offers software for vertical and domain-specific solutions in health, financial services, supply chain, and asset management, weather, and security software and services application areas; and customer information control system and storage, and analytics and integration software solutions to support client mission critical on-premise workloads in banking, airline, and retail industries. It also offers middleware and data platform software, including Red Hat that enables the operation of clients' hybrid multi-cloud environments; and Cloud Paks, WebSphere distributed, and analytics platform software, such as DB2 distributed, information integration, and enterprise content management, as well as IoT, Blockchain and AI/Watson platforms. The company's Global Business Services segment offers business consulting services; system integration, application management, maintenance, and support services for packaged software; and finance, procurement, talent and engagement, and industry-specific business process outsourcing services. Its Global Technology Services segment provides IT infrastructure and platform services; and project, managed, outsourcing, and cloud-delivered services for enterprise IT infrastructure environments; and IT infrastructure support services. The company's Systems segment offers servers for businesses, cloud service providers, and scientific computing organizations; data storage products and solutions; and z/OS, an enterprise operating system, as well as Linux. Its Global Financing segment provides lease, installment payment, loan financing, short-term working capital financing, and remanufacturing and remarketing services. The company was formerly known as Computing-Tabulating-Recording Co. The company was incorporated in 1911 and is headquartered in Armonk, New York.",
+  "exchange": "NYSE",
+  "sector": "Technology",
+  "yearLow": 10303,
+  "yearHigh": 13707,
+  "marketCap": 11993818726400,
+  "historicalByMonth": [
+    {
+      "stringDate": "2021-04-06",
+      "dateYear": 2021,
+      "dateMonth": "Apr",
+      "low": 13227,
+      "high": 13669,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2021-03-31",
+      "dateYear": 2021,
+      "dateMonth": "Mar",
+      "low": 11875,
+      "high": 13707,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2021-02-26",
+      "dateYear": 2021,
+      "dateMonth": "Feb",
+      "low": 11812,
+      "high": 12435,
+      "dividend": 163
+    },
+    {
+      "stringDate": "2021-01-29",
+      "dateYear": 2021,
+      "dateMonth": "Jan",
+      "low": 11736,
+      "high": 13224,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-12-31",
+      "dateYear": 2020,
+      "dateMonth": "Dec",
+      "low": 12172,
+      "high": 12769,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-11-30",
+      "dateYear": 2020,
+      "dateMonth": "Nov",
+      "low": 11116,
+      "high": 12531,
+      "dividend": 163
+    },
+    {
+      "stringDate": "2020-10-30",
+      "dateYear": 2020,
+      "dateMonth": "Oct",
+      "low": 10592,
+      "high": 13550,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-09-30",
+      "dateYear": 2020,
+      "dateMonth": "Sep",
+      "low": 11648,
+      "high": 12994,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-08-31",
+      "dateYear": 2020,
+      "dateMonth": "Aug",
+      "low": 12215,
+      "high": 13047,
+      "dividend": 163
+    },
+    {
+      "stringDate": "2020-07-31",
+      "dateYear": 2020,
+      "dateMonth": "Jul",
+      "low": 11520,
+      "high": 13216,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-06-30",
+      "dateYear": 2020,
+      "dateMonth": "Jun",
+      "low": 11588,
+      "high": 13588,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-05-29",
+      "dateYear": 2020,
+      "dateMonth": "May",
+      "low": 11181,
+      "high": 12697,
+      "dividend": 163
+    },
+    {
+      "stringDate": "2020-04-30",
+      "dateYear": 2020,
+      "dateMonth": "Apr",
+      "low": 10452,
+      "high": 12931,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-03-31",
+      "dateYear": 2020,
+      "dateMonth": "Mar",
+      "low": 9056,
+      "high": 13610,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2020-02-28",
+      "dateYear": 2020,
+      "dateMonth": "Feb",
+      "low": 12636,
+      "high": 15875,
+      "dividend": 162
+    },
+    {
+      "stringDate": "2020-01-31",
+      "dateYear": 2020,
+      "dateMonth": "Jan",
+      "low": 13319,
+      "high": 14579,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-12-31",
+      "dateYear": 2019,
+      "dateMonth": "Dec",
+      "low": 13069,
+      "high": 13641,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-11-29",
+      "dateYear": 2019,
+      "dateMonth": "Nov",
+      "low": 13275,
+      "high": 13913,
+      "dividend": 162
+    },
+    {
+      "stringDate": "2019-10-31",
+      "dateYear": 2019,
+      "dateMonth": "Oct",
+      "low": 13090,
+      "high": 14735,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-09-30",
+      "dateYear": 2019,
+      "dateMonth": "Sep",
+      "low": 13333,
+      "high": 14657,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-08-30",
+      "dateYear": 2019,
+      "dateMonth": "Aug",
+      "low": 12883,
+      "high": 15294,
+      "dividend": 162
+    },
+    {
+      "stringDate": "2019-07-31",
+      "dateYear": 2019,
+      "dateMonth": "Jul",
+      "low": 13913,
+      "high": 15194,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-06-28",
+      "dateYear": 2019,
+      "dateMonth": "Jun",
+      "low": 12706,
+      "high": 14015,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-05-31",
+      "dateYear": 2019,
+      "dateMonth": "May",
+      "low": 12685,
+      "high": 14181,
+      "dividend": 162
+    },
+    {
+      "stringDate": "2019-04-30",
+      "dateYear": 2019,
+      "dateMonth": "Apr",
+      "low": 13626,
+      "high": 14538,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-03-29",
+      "dateYear": 2019,
+      "dateMonth": "Mar",
+      "low": 13358,
+      "high": 14212,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2019-02-28",
+      "dateYear": 2019,
+      "dateMonth": "Feb",
+      "low": 13212,
+      "high": 14049,
+      "dividend": 157
+    },
+    {
+      "stringDate": "2019-01-31",
+      "dateYear": 2019,
+      "dateMonth": "Jan",
+      "low": 11169,
+      "high": 13541,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-12-31",
+      "dateYear": 2018,
+      "dateMonth": "Dec",
+      "low": 10594,
+      "high": 12659,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-11-30",
+      "dateYear": 2018,
+      "dateMonth": "Nov",
+      "low": 11454,
+      "high": 12506,
+      "dividend": 157
+    },
+    {
+      "stringDate": "2018-10-31",
+      "dateYear": 2018,
+      "dateMonth": "Oct",
+      "low": 11409,
+      "high": 15436,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-09-28",
+      "dateYear": 2018,
+      "dateMonth": "Sep",
+      "low": 14481,
+      "high": 15335,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-08-31",
+      "dateYear": 2018,
+      "dateMonth": "Aug",
+      "low": 14200,
+      "high": 14793,
+      "dividend": 157
+    },
+    {
+      "stringDate": "2018-07-31",
+      "dateYear": 2018,
+      "dateMonth": "Jul",
+      "low": 13819,
+      "high": 15054,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-06-29",
+      "dateYear": 2018,
+      "dateMonth": "Jun",
+      "low": 13744,
+      "high": 14752,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-05-31",
+      "dateYear": 2018,
+      "dateMonth": "May",
+      "low": 13990,
+      "high": 14619,
+      "dividend": 157
+    },
+    {
+      "stringDate": "2018-04-30",
+      "dateYear": 2018,
+      "dateMonth": "Apr",
+      "low": 14411,
+      "high": 16200,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-03-29",
+      "dateYear": 2018,
+      "dateMonth": "Mar",
+      "low": 14854,
+      "high": 16211,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2018-02-28",
+      "dateYear": 2018,
+      "dateMonth": "Feb",
+      "low": 14440,
+      "high": 16413,
+      "dividend": 150
+    },
+    {
+      "stringDate": "2018-01-31",
+      "dateYear": 2018,
+      "dateMonth": "Jan",
+      "low": 15354,
+      "high": 17113,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-12-29",
+      "dateYear": 2017,
+      "dateMonth": "Dec",
+      "low": 15149,
+      "high": 15785,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-11-30",
+      "dateYear": 2017,
+      "dateMonth": "Nov",
+      "low": 14621,
+      "high": 15490,
+      "dividend": 150
+    },
+    {
+      "stringDate": "2017-10-31",
+      "dateYear": 2017,
+      "dateMonth": "Oct",
+      "low": 14521,
+      "high": 16251,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-09-29",
+      "dateYear": 2017,
+      "dateMonth": "Sep",
+      "low": 14163,
+      "high": 14741,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-08-31",
+      "dateYear": 2017,
+      "dateMonth": "Aug",
+      "low": 13913,
+      "high": 14566,
+      "dividend": 150
+    },
+    {
+      "stringDate": "2017-07-31",
+      "dateYear": 2017,
+      "dateMonth": "Jul",
+      "low": 14363,
+      "high": 15603,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-06-30",
+      "dateYear": 2017,
+      "dateMonth": "Jun",
+      "low": 15080,
+      "high": 15719,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-05-31",
+      "dateYear": 2017,
+      "dateMonth": "May",
+      "low": 14979,
+      "high": 16041,
+      "dividend": 150
+    },
+    {
+      "stringDate": "2017-04-28",
+      "dateYear": 2017,
+      "dateMonth": "Apr",
+      "low": 15960,
+      "high": 17633,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-03-31",
+      "dateYear": 2017,
+      "dateMonth": "Mar",
+      "low": 17209,
+      "high": 18255,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2017-02-28",
+      "dateYear": 2017,
+      "dateMonth": "Feb",
+      "low": 17289,
+      "high": 18279,
+      "dividend": 140
+    },
+    {
+      "stringDate": "2017-01-31",
+      "dateYear": 2017,
+      "dateMonth": "Jan",
+      "low": 16534,
+      "high": 17925,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-12-30",
+      "dateYear": 2016,
+      "dateMonth": "Dec",
+      "low": 15830,
+      "high": 16995,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-11-30",
+      "dateYear": 2016,
+      "dateMonth": "Nov",
+      "low": 15100,
+      "high": 16466,
+      "dividend": 140
+    },
+    {
+      "stringDate": "2016-10-31",
+      "dateYear": 2016,
+      "dateMonth": "Oct",
+      "low": 14779,
+      "high": 15853,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-09-30",
+      "dateYear": 2016,
+      "dateMonth": "Sep",
+      "low": 15321,
+      "high": 16500,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-08-31",
+      "dateYear": 2016,
+      "dateMonth": "Aug",
+      "low": 15785,
+      "high": 16495,
+      "dividend": 140
+    },
+    {
+      "stringDate": "2016-07-29",
+      "dateYear": 2016,
+      "dateMonth": "Jul",
+      "low": 14991,
+      "high": 16360,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-06-30",
+      "dateYear": 2016,
+      "dateMonth": "Jun",
+      "low": 14250,
+      "high": 15547,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-05-31",
+      "dateYear": 2016,
+      "dateMonth": "May",
+      "low": 14290,
+      "high": 15381,
+      "dividend": 140
+    },
+    {
+      "stringDate": "2016-04-29",
+      "dateYear": 2016,
+      "dateMonth": "Apr",
+      "low": 14261,
+      "high": 15352,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-03-31",
+      "dateYear": 2016,
+      "dateMonth": "Mar",
+      "low": 13203,
+      "high": 15310,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2016-02-29",
+      "dateYear": 2016,
+      "dateMonth": "Feb",
+      "low": 11690,
+      "high": 13491,
+      "dividend": 130
+    },
+    {
+      "stringDate": "2016-01-29",
+      "dateYear": 2016,
+      "dateMonth": "Jan",
+      "low": 11800,
+      "high": 13688,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-12-31",
+      "dateYear": 2015,
+      "dateMonth": "Dec",
+      "low": 13391,
+      "high": 14140,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-11-30",
+      "dateYear": 2015,
+      "dateMonth": "Nov",
+      "low": 13165,
+      "high": 14280,
+      "dividend": 130
+    },
+    {
+      "stringDate": "2015-10-30",
+      "dateYear": 2015,
+      "dateMonth": "Oct",
+      "low": 13733,
+      "high": 15315,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-09-30",
+      "dateYear": 2015,
+      "dateMonth": "Sep",
+      "low": 14115,
+      "high": 14968,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-08-31",
+      "dateYear": 2015,
+      "dateMonth": "Aug",
+      "low": 14062,
+      "high": 16185,
+      "dividend": 130
+    },
+    {
+      "stringDate": "2015-07-31",
+      "dateYear": 2015,
+      "dateMonth": "Jul",
+      "low": 15850,
+      "high": 17378,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-06-30",
+      "dateYear": 2015,
+      "dateMonth": "Jun",
+      "low": 16212,
+      "high": 17156,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-05-29",
+      "dateYear": 2015,
+      "dateMonth": "May",
+      "low": 16884,
+      "high": 17630,
+      "dividend": 130
+    },
+    {
+      "stringDate": "2015-04-30",
+      "dateYear": 2015,
+      "dateMonth": "Apr",
+      "low": 15838,
+      "high": 17513,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-03-31",
+      "dateYear": 2015,
+      "dateMonth": "Mar",
+      "low": 15340,
+      "high": 16535,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2015-02-27",
+      "dateYear": 2015,
+      "dateMonth": "Feb",
+      "low": 15151,
+      "high": 16499,
+      "dividend": 110
+    },
+    {
+      "stringDate": "2015-01-30",
+      "dateYear": 2015,
+      "dateMonth": "Jan",
+      "low": 14952,
+      "high": 16331,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-12-31",
+      "dateYear": 2014,
+      "dateMonth": "Dec",
+      "low": 15050,
+      "high": 16452,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-11-28",
+      "dateYear": 2014,
+      "dateMonth": "Nov",
+      "low": 15980,
+      "high": 16497,
+      "dividend": 110
+    },
+    {
+      "stringDate": "2014-10-31",
+      "dateYear": 2014,
+      "dateMonth": "Oct",
+      "low": 16110,
+      "high": 19089,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-09-30",
+      "dateYear": 2014,
+      "dateMonth": "Sep",
+      "low": 18812,
+      "high": 19500,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-08-29",
+      "dateYear": 2014,
+      "dateMonth": "Aug",
+      "low": 18358,
+      "high": 19413,
+      "dividend": 110
+    },
+    {
+      "stringDate": "2014-07-31",
+      "dateYear": 2014,
+      "dateMonth": "Jul",
+      "low": 18170,
+      "high": 19640,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-06-30",
+      "dateYear": 2014,
+      "dateMonth": "Jun",
+      "low": 17927,
+      "high": 18765,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-05-30",
+      "dateYear": 2014,
+      "dateMonth": "May",
+      "low": 18233,
+      "high": 19674,
+      "dividend": 110
+    },
+    {
+      "stringDate": "2014-04-30",
+      "dateYear": 2014,
+      "dateMonth": "Apr",
+      "low": 18701,
+      "high": 19921,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-03-31",
+      "dateYear": 2014,
+      "dateMonth": "Mar",
+      "low": 18221,
+      "high": 19563,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2014-02-28",
+      "dateYear": 2014,
+      "dateMonth": "Feb",
+      "low": 17219,
+      "high": 18612,
+      "dividend": 95
+    },
+    {
+      "stringDate": "2014-01-31",
+      "dateYear": 2014,
+      "dateMonth": "Jan",
+      "low": 17534,
+      "high": 19081,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-12-31",
+      "dateYear": 2013,
+      "dateMonth": "Dec",
+      "low": 17273,
+      "high": 18779,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-11-29",
+      "dateYear": 2013,
+      "dateMonth": "Nov",
+      "low": 17731,
+      "high": 18624,
+      "dividend": 95
+    },
+    {
+      "stringDate": "2013-10-31",
+      "dateYear": 2013,
+      "dateMonth": "Oct",
+      "low": 17257,
+      "high": 18699,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-09-30",
+      "dateYear": 2013,
+      "dateMonth": "Sep",
+      "low": 18231,
+      "high": 19489,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-08-30",
+      "dateYear": 2013,
+      "dateMonth": "Aug",
+      "low": 18110,
+      "high": 19717,
+      "dividend": 95
+    },
+    {
+      "stringDate": "2013-07-31",
+      "dateYear": 2013,
+      "dateMonth": "Jul",
+      "low": 19026,
+      "high": 20094,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-06-28",
+      "dateYear": 2013,
+      "dateMonth": "Jun",
+      "low": 18841,
+      "high": 21005,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-05-31",
+      "dateYear": 2013,
+      "dateMonth": "May",
+      "low": 19920,
+      "high": 21198,
+      "dividend": 95
+    },
+    {
+      "stringDate": "2013-04-30",
+      "dateYear": 2013,
+      "dateMonth": "Apr",
+      "low": 18768,
+      "high": 21489,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-03-28",
+      "dateYear": 2013,
+      "dateMonth": "Mar",
+      "low": 19936,
+      "high": 21590,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2013-02-28",
+      "dateYear": 2013,
+      "dateMonth": "Feb",
+      "low": 19751,
+      "high": 20535,
+      "dividend": 85
+    },
+    {
+      "stringDate": "2013-01-31",
+      "dateYear": 2013,
+      "dateMonth": "Jan",
+      "low": 19039,
+      "high": 20858,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-12-31",
+      "dateYear": 2012,
+      "dateMonth": "Dec",
+      "low": 18694,
+      "high": 19645,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-11-30",
+      "dateYear": 2012,
+      "dateMonth": "Nov",
+      "low": 18478,
+      "high": 19800,
+      "dividend": 85
+    },
+    {
+      "stringDate": "2012-10-31",
+      "dateYear": 2012,
+      "dateMonth": "Oct",
+      "low": 19056,
+      "high": 21179,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-09-28",
+      "dateYear": 2012,
+      "dateMonth": "Sep",
+      "low": 19325,
+      "high": 20832,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-08-31",
+      "dateYear": 2012,
+      "dateMonth": "Aug",
+      "low": 19302,
+      "high": 20200,
+      "dividend": 85
+    },
+    {
+      "stringDate": "2012-07-31",
+      "dateYear": 2012,
+      "dateMonth": "Jul",
+      "low": 18185,
+      "high": 19784,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-06-29",
+      "dateYear": 2012,
+      "dateMonth": "Jun",
+      "low": 18700,
+      "high": 19999,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-05-31",
+      "dateYear": 2012,
+      "dateMonth": "May",
+      "low": 19200,
+      "high": 20893,
+      "dividend": 85
+    },
+    {
+      "stringDate": "2012-04-30",
+      "dateYear": 2012,
+      "dateMonth": "Apr",
+      "low": 19679,
+      "high": 21069,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-03-30",
+      "dateYear": 2012,
+      "dateMonth": "Mar",
+      "low": 19681,
+      "high": 20912,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2012-02-29",
+      "dateYear": 2012,
+      "dateMonth": "Feb",
+      "low": 19083,
+      "high": 19923,
+      "dividend": 75
+    },
+    {
+      "stringDate": "2012-01-31",
+      "dateYear": 2012,
+      "dateMonth": "Jan",
+      "low": 17735,
+      "high": 19310,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-12-30",
+      "dateYear": 2011,
+      "dateMonth": "Dec",
+      "low": 17904,
+      "high": 19490,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-11-30",
+      "dateYear": 2011,
+      "dateMonth": "Nov",
+      "low": 17706,
+      "high": 18997,
+      "dividend": 75
+    },
+    {
+      "stringDate": "2011-10-31",
+      "dateYear": 2011,
+      "dateMonth": "Oct",
+      "low": 16888,
+      "high": 19053,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-09-30",
+      "dateYear": 2011,
+      "dateMonth": "Sep",
+      "low": 15876,
+      "high": 18091,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-08-31",
+      "dateYear": 2011,
+      "dateMonth": "Aug",
+      "low": 15713,
+      "high": 18369,
+      "dividend": 75
+    },
+    {
+      "stringDate": "2011-07-29",
+      "dateYear": 2011,
+      "dateMonth": "Jul",
+      "low": 17149,
+      "high": 18563,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-06-30",
+      "dateYear": 2011,
+      "dateMonth": "Jun",
+      "low": 16152,
+      "high": 17245,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-05-31",
+      "dateYear": 2011,
+      "dateMonth": "May",
+      "low": 16590,
+      "high": 17354,
+      "dividend": 75
+    },
+    {
+      "stringDate": "2011-04-29",
+      "dateYear": 2011,
+      "dateMonth": "Apr",
+      "low": 16219,
+      "high": 17300,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-03-31",
+      "dateYear": 2011,
+      "dateMonth": "Mar",
+      "low": 15171,
+      "high": 16772,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2011-02-28",
+      "dateYear": 2011,
+      "dateMonth": "Feb",
+      "low": 15903,
+      "high": 16625,
+      "dividend": 65
+    },
+    {
+      "stringDate": "2011-01-31",
+      "dateYear": 2011,
+      "dateMonth": "Jan",
+      "low": 14663,
+      "high": 16435,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-12-31",
+      "dateYear": 2010,
+      "dateMonth": "Dec",
+      "low": 14351,
+      "high": 14750,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-11-30",
+      "dateYear": 2010,
+      "dateMonth": "Nov",
+      "low": 14118,
+      "high": 14753,
+      "dividend": 65
+    },
+    {
+      "stringDate": "2010-10-29",
+      "dateYear": 2010,
+      "dateMonth": "Oct",
+      "low": 13438,
+      "high": 14400,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-09-30",
+      "dateYear": 2010,
+      "dateMonth": "Sep",
+      "low": 12452,
+      "high": 13611,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-08-31",
+      "dateYear": 2010,
+      "dateMonth": "Aug",
+      "low": 12228,
+      "high": 13249,
+      "dividend": 65
+    },
+    {
+      "stringDate": "2010-07-30",
+      "dateYear": 2010,
+      "dateMonth": "Jul",
+      "low": 12061,
+      "high": 13160,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-06-30",
+      "dateYear": 2010,
+      "dateMonth": "Jun",
+      "low": 12282,
+      "high": 13194,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-05-28",
+      "dateYear": 2010,
+      "dateMonth": "May",
+      "low": 11600,
+      "high": 13310,
+      "dividend": 65
+    },
+    {
+      "stringDate": "2010-04-30",
+      "dateYear": 2010,
+      "dateMonth": "Apr",
+      "low": 12712,
+      "high": 13228,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-03-31",
+      "dateYear": 2010,
+      "dateMonth": "Mar",
+      "low": 12520,
+      "high": 13072,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2010-02-26",
+      "dateYear": 2010,
+      "dateMonth": "Feb",
+      "low": 12161,
+      "high": 12827,
+      "dividend": 55
+    },
+    {
+      "stringDate": "2010-01-29",
+      "dateYear": 2010,
+      "dateMonth": "Jan",
+      "low": 12190,
+      "high": 13425,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-12-31",
+      "dateYear": 2009,
+      "dateMonth": "Dec",
+      "low": 12600,
+      "high": 13285,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-11-30",
+      "dateYear": 2009,
+      "dateMonth": "Nov",
+      "low": 11950,
+      "high": 12894,
+      "dividend": 55
+    },
+    {
+      "stringDate": "2009-10-30",
+      "dateYear": 2009,
+      "dateMonth": "Oct",
+      "low": 11726,
+      "high": 12861,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-09-30",
+      "dateYear": 2009,
+      "dateMonth": "Sep",
+      "low": 11515,
+      "high": 12288,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-08-31",
+      "dateYear": 2009,
+      "dateMonth": "Aug",
+      "low": 11612,
+      "high": 12088,
+      "dividend": 55
+    },
+    {
+      "stringDate": "2009-07-31",
+      "dateYear": 2009,
+      "dateMonth": "Jul",
+      "low": 9950,
+      "high": 11937,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-06-30",
+      "dateYear": 2009,
+      "dateMonth": "Jun",
+      "low": 10351,
+      "high": 11064,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-05-29",
+      "dateYear": 2009,
+      "dateMonth": "May",
+      "low": 9983,
+      "high": 10682,
+      "dividend": 55
+    },
+    {
+      "stringDate": "2009-04-30",
+      "dateYear": 2009,
+      "dateMonth": "Apr",
+      "low": 9570,
+      "high": 10605,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-03-31",
+      "dateYear": 2009,
+      "dateMonth": "Mar",
+      "low": 8302,
+      "high": 9986,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2009-02-27",
+      "dateYear": 2009,
+      "dateMonth": "Feb",
+      "low": 8285,
+      "high": 9710,
+      "dividend": 50
+    },
+    {
+      "stringDate": "2009-01-30",
+      "dateYear": 2009,
+      "dateMonth": "Jan",
+      "low": 8176,
+      "high": 9494,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-12-31",
+      "dateYear": 2008,
+      "dateMonth": "Dec",
+      "low": 7531,
+      "high": 8727,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-11-28",
+      "dateYear": 2008,
+      "dateMonth": "Nov",
+      "low": 6950,
+      "high": 9476,
+      "dividend": 50
+    },
+    {
+      "stringDate": "2008-10-31",
+      "dateYear": 2008,
+      "dateMonth": "Oct",
+      "low": 7881,
+      "high": 11680,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-09-30",
+      "dateYear": 2008,
+      "dateMonth": "Sep",
+      "low": 10995,
+      "high": 12400,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-08-29",
+      "dateYear": 2008,
+      "dateMonth": "Aug",
+      "low": 12150,
+      "high": 12997,
+      "dividend": 50
+    },
+    {
+      "stringDate": "2008-07-31",
+      "dateYear": 2008,
+      "dateMonth": "Jul",
+      "low": 11660,
+      "high": 13093,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-06-30",
+      "dateYear": 2008,
+      "dateMonth": "Jun",
+      "low": 11815,
+      "high": 12937,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-05-30",
+      "dateYear": 2008,
+      "dateMonth": "May",
+      "low": 12078,
+      "high": 12999,
+      "dividend": 50
+    },
+    {
+      "stringDate": "2008-04-30",
+      "dateYear": 2008,
+      "dateMonth": "Apr",
+      "low": 11386,
+      "high": 12500,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-03-31",
+      "dateYear": 2008,
+      "dateMonth": "Mar",
+      "low": 11180,
+      "high": 11979,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2008-02-29",
+      "dateYear": 2008,
+      "dateMonth": "Feb",
+      "low": 10060,
+      "high": 11663,
+      "dividend": 40
+    },
+    {
+      "stringDate": "2008-01-31",
+      "dateYear": 2008,
+      "dateMonth": "Jan",
+      "low": 9704,
+      "high": 10899,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-12-31",
+      "dateYear": 2007,
+      "dateMonth": "Dec",
+      "low": 10400,
+      "high": 11219,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-11-30",
+      "dateYear": 2007,
+      "dateMonth": "Nov",
+      "low": 9927,
+      "high": 11609,
+      "dividend": 40
+    },
+    {
+      "stringDate": "2007-10-31",
+      "dateYear": 2007,
+      "dateMonth": "Oct",
+      "low": 11096,
+      "high": 12146,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-09-28",
+      "dateYear": 2007,
+      "dateMonth": "Sep",
+      "low": 11430,
+      "high": 11889,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-08-31",
+      "dateYear": 2007,
+      "dateMonth": "Aug",
+      "low": 10370,
+      "high": 11735,
+      "dividend": 40
+    },
+    {
+      "stringDate": "2007-07-31",
+      "dateYear": 2007,
+      "dateMonth": "Jul",
+      "low": 10458,
+      "high": 11882,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-06-29",
+      "dateYear": 2007,
+      "dateMonth": "Jun",
+      "low": 10156,
+      "high": 10724,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-05-31",
+      "dateYear": 2007,
+      "dateMonth": "May",
+      "low": 10135,
+      "high": 10805,
+      "dividend": 40
+    },
+    {
+      "stringDate": "2007-04-30",
+      "dateYear": 2007,
+      "dateMonth": "Apr",
+      "low": 9391,
+      "high": 10300,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-03-30",
+      "dateYear": 2007,
+      "dateMonth": "Mar",
+      "low": 8877,
+      "high": 9581,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2007-02-28",
+      "dateYear": 2007,
+      "dateMonth": "Feb",
+      "low": 9247,
+      "high": 10044,
+      "dividend": 30
+    },
+    {
+      "stringDate": "2007-01-31",
+      "dateYear": 2007,
+      "dateMonth": "Jan",
+      "low": 9455,
+      "high": 10090,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-12-29",
+      "dateYear": 2006,
+      "dateMonth": "Dec",
+      "low": 9055,
+      "high": 9788,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-11-30",
+      "dateYear": 2006,
+      "dateMonth": "Nov",
+      "low": 9043,
+      "high": 9405,
+      "dividend": 30
+    },
+    {
+      "stringDate": "2006-10-31",
+      "dateYear": 2006,
+      "dateMonth": "Oct",
+      "low": 8156,
+      "high": 9268,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-09-29",
+      "dateYear": 2006,
+      "dateMonth": "Sep",
+      "low": 7931,
+      "high": 8379,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-08-31",
+      "dateYear": 2006,
+      "dateMonth": "Aug",
+      "low": 7490,
+      "high": 8168,
+      "dividend": 30
+    },
+    {
+      "stringDate": "2006-07-31",
+      "dateYear": 2006,
+      "dateMonth": "Jul",
+      "low": 7273,
+      "high": 7853,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-06-30",
+      "dateYear": 2006,
+      "dateMonth": "Jun",
+      "low": 7606,
+      "high": 8087,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-05-31",
+      "dateYear": 2006,
+      "dateMonth": "May",
+      "low": 7900,
+      "high": 8369,
+      "dividend": 30
+    },
+    {
+      "stringDate": "2006-04-28",
+      "dateYear": 2006,
+      "dateMonth": "Apr",
+      "low": 8063,
+      "high": 8445,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-03-31",
+      "dateYear": 2006,
+      "dateMonth": "Mar",
+      "low": 7951,
+      "high": 8499,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2006-02-28",
+      "dateYear": 2006,
+      "dateMonth": "Feb",
+      "low": 7893,
+      "high": 8224,
+      "dividend": 20
+    },
+    {
+      "stringDate": "2006-01-31",
+      "dateYear": 2006,
+      "dateMonth": "Jan",
+      "low": 8020,
+      "high": 8503,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-12-30",
+      "dateYear": 2005,
+      "dateMonth": "Dec",
+      "low": 8156,
+      "high": 8992,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-11-30",
+      "dateYear": 2005,
+      "dateMonth": "Nov",
+      "low": 8064,
+      "high": 8994,
+      "dividend": 20
+    },
+    {
+      "stringDate": "2005-10-31",
+      "dateYear": 2005,
+      "dateMonth": "Oct",
+      "low": 7870,
+      "high": 8460,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-09-30",
+      "dateYear": 2005,
+      "dateMonth": "Sep",
+      "low": 7693,
+      "high": 8211,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-08-31",
+      "dateYear": 2005,
+      "dateMonth": "Aug",
+      "low": 7987,
+      "high": 8420,
+      "dividend": 20
+    },
+    {
+      "stringDate": "2005-07-29",
+      "dateYear": 2005,
+      "dateMonth": "Jul",
+      "low": 7416,
+      "high": 8511,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-06-30",
+      "dateYear": 2005,
+      "dateMonth": "Jun",
+      "low": 7345,
+      "high": 7773,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-05-31",
+      "dateYear": 2005,
+      "dateMonth": "May",
+      "low": 7250,
+      "high": 7811,
+      "dividend": 20
+    },
+    {
+      "stringDate": "2005-04-29",
+      "dateYear": 2005,
+      "dateMonth": "Apr",
+      "low": 7184,
+      "high": 9176,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-03-31",
+      "dateYear": 2005,
+      "dateMonth": "Mar",
+      "low": 8909,
+      "high": 9373,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2005-02-28",
+      "dateYear": 2005,
+      "dateMonth": "Feb",
+      "low": 9155,
+      "high": 9497,
+      "dividend": 18
+    },
+    {
+      "stringDate": "2005-01-31",
+      "dateYear": 2005,
+      "dateMonth": "Jan",
+      "low": 9144,
+      "high": 9910,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-12-31",
+      "dateYear": 2004,
+      "dateMonth": "Dec",
+      "low": 9447,
+      "high": 9900,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-11-30",
+      "dateYear": 2004,
+      "dateMonth": "Nov",
+      "low": 8923,
+      "high": 9663,
+      "dividend": 18
+    },
+    {
+      "stringDate": "2004-10-29",
+      "dateYear": 2004,
+      "dateMonth": "Oct",
+      "low": 8429,
+      "high": 9027,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-09-30",
+      "dateYear": 2004,
+      "dateMonth": "Sep",
+      "low": 8324,
+      "high": 8728,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-08-31",
+      "dateYear": 2004,
+      "dateMonth": "Aug",
+      "low": 8190,
+      "high": 8739,
+      "dividend": 18
+    },
+    {
+      "stringDate": "2004-07-30",
+      "dateYear": 2004,
+      "dateMonth": "Jul",
+      "low": 8342,
+      "high": 8844,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-06-30",
+      "dateYear": 2004,
+      "dateMonth": "Jun",
+      "low": 8730,
+      "high": 9121,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-05-28",
+      "dateYear": 2004,
+      "dateMonth": "May",
+      "low": 8512,
+      "high": 8975,
+      "dividend": 18
+    },
+    {
+      "stringDate": "2004-04-30",
+      "dateYear": 2004,
+      "dateMonth": "Apr",
+      "low": 8801,
+      "high": 9455,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-03-31",
+      "dateYear": 2004,
+      "dateMonth": "Mar",
+      "low": 9028,
+      "high": 9760,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2004-02-27",
+      "dateYear": 2004,
+      "dateMonth": "Feb",
+      "low": 9520,
+      "high": 10043,
+      "dividend": 16
+    },
+    {
+      "stringDate": "2004-01-30",
+      "dateYear": 2004,
+      "dateMonth": "Jan",
+      "low": 8901,
+      "high": 9985,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-12-31",
+      "dateYear": 2003,
+      "dateMonth": "Dec",
+      "low": 9003,
+      "high": 9412,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-11-28",
+      "dateYear": 2003,
+      "dateMonth": "Nov",
+      "low": 8772,
+      "high": 9148,
+      "dividend": 16
+    },
+    {
+      "stringDate": "2003-10-31",
+      "dateYear": 2003,
+      "dateMonth": "Oct",
+      "low": 8753,
+      "high": 9454,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-09-30",
+      "dateYear": 2003,
+      "dateMonth": "Sep",
+      "low": 8230,
+      "high": 9347,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-08-29",
+      "dateYear": 2003,
+      "dateMonth": "Aug",
+      "low": 7873,
+      "high": 8472,
+      "dividend": 16
+    },
+    {
+      "stringDate": "2003-07-31",
+      "dateYear": 2003,
+      "dateMonth": "Jul",
+      "low": 8058,
+      "high": 8703,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-06-30",
+      "dateYear": 2003,
+      "dateMonth": "Jun",
+      "low": 7981,
+      "high": 8908,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-05-30",
+      "dateYear": 2003,
+      "dateMonth": "May",
+      "low": 8445,
+      "high": 9040,
+      "dividend": 16
+    },
+    {
+      "stringDate": "2003-04-30",
+      "dateYear": 2003,
+      "dateMonth": "Apr",
+      "low": 7812,
+      "high": 8649,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-03-31",
+      "dateYear": 2003,
+      "dateMonth": "Mar",
+      "low": 7317,
+      "high": 8490,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2003-02-28",
+      "dateYear": 2003,
+      "dateMonth": "Feb",
+      "low": 7431,
+      "high": 8005,
+      "dividend": 15
+    },
+    {
+      "stringDate": "2003-01-31",
+      "dateYear": 2003,
+      "dateMonth": "Jan",
+      "low": 7702,
+      "high": 8895,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-12-31",
+      "dateYear": 2002,
+      "dateMonth": "Dec",
+      "low": 7559,
+      "high": 8946,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-11-29",
+      "dateYear": 2002,
+      "dateMonth": "Nov",
+      "low": 7670,
+      "high": 8811,
+      "dividend": 15
+    },
+    {
+      "stringDate": "2002-10-31",
+      "dateYear": 2002,
+      "dateMonth": "Oct",
+      "low": 5401,
+      "high": 7979,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-09-30",
+      "dateYear": 2002,
+      "dateMonth": "Sep",
+      "low": 5799,
+      "high": 7750,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-08-30",
+      "dateYear": 2002,
+      "dateMonth": "Aug",
+      "low": 6584,
+      "high": 8285,
+      "dividend": 15
+    },
+    {
+      "stringDate": "2002-07-31",
+      "dateYear": 2002,
+      "dateMonth": "Jul",
+      "low": 6570,
+      "high": 7420,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-06-28",
+      "dateYear": 2002,
+      "dateMonth": "Jun",
+      "low": 6609,
+      "high": 8095,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-05-31",
+      "dateYear": 2002,
+      "dateMonth": "May",
+      "low": 7592,
+      "high": 8649,
+      "dividend": 15
+    },
+    {
+      "stringDate": "2002-04-30",
+      "dateYear": 2002,
+      "dateMonth": "Apr",
+      "low": 8334,
+      "high": 10400,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-03-28",
+      "dateYear": 2002,
+      "dateMonth": "Mar",
+      "low": 9850,
+      "high": 10885,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2002-02-28",
+      "dateYear": 2002,
+      "dateMonth": "Feb",
+      "low": 9576,
+      "high": 10930,
+      "dividend": 14
+    },
+    {
+      "stringDate": "2002-01-31",
+      "dateYear": 2002,
+      "dateMonth": "Jan",
+      "low": 10100,
+      "high": 12639,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-12-31",
+      "dateYear": 2001,
+      "dateMonth": "Dec",
+      "low": 11321,
+      "high": 12470,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-11-30",
+      "dateYear": 2001,
+      "dateMonth": "Nov",
+      "low": 10690,
+      "high": 11700,
+      "dividend": 14
+    },
+    {
+      "stringDate": "2001-10-31",
+      "dateYear": 2001,
+      "dateMonth": "Oct",
+      "low": 9134,
+      "high": 11210,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-09-28",
+      "dateYear": 2001,
+      "dateMonth": "Sep",
+      "low": 8749,
+      "high": 10313,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-08-31",
+      "dateYear": 2001,
+      "dateMonth": "Aug",
+      "low": 9886,
+      "high": 11009,
+      "dividend": 14
+    },
+    {
+      "stringDate": "2001-07-31",
+      "dateYear": 2001,
+      "dateMonth": "Jul",
+      "low": 10156,
+      "high": 11540,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-06-29",
+      "dateYear": 2001,
+      "dateMonth": "Jun",
+      "low": 11110,
+      "high": 11900,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-05-31",
+      "dateYear": 2001,
+      "dateMonth": "May",
+      "low": 11096,
+      "high": 11990,
+      "dividend": 14
+    },
+    {
+      "stringDate": "2001-04-30",
+      "dateYear": 2001,
+      "dateMonth": "Apr",
+      "low": 9005,
+      "high": 11805,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-03-30",
+      "dateYear": 2001,
+      "dateMonth": "Mar",
+      "low": 8765,
+      "high": 10840,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2001-02-28",
+      "dateYear": 2001,
+      "dateMonth": "Feb",
+      "low": 9910,
+      "high": 11864,
+      "dividend": 13
+    },
+    {
+      "stringDate": "2001-01-31",
+      "dateYear": 2001,
+      "dateMonth": "Jan",
+      "low": 8375,
+      "high": 11675,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-12-29",
+      "dateYear": 2000,
+      "dateMonth": "Dec",
+      "low": 8006,
+      "high": 10475,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-11-30",
+      "dateYear": 2000,
+      "dateMonth": "Nov",
+      "low": 9162,
+      "high": 10437,
+      "dividend": 13
+    },
+    {
+      "stringDate": "2000-10-31",
+      "dateYear": 2000,
+      "dateMonth": "Oct",
+      "low": 8694,
+      "high": 11962,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-09-29",
+      "dateYear": 2000,
+      "dateMonth": "Sep",
+      "low": 11025,
+      "high": 13494,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-08-31",
+      "dateYear": 2000,
+      "dateMonth": "Aug",
+      "low": 11025,
+      "high": 13425,
+      "dividend": 13
+    },
+    {
+      "stringDate": "2000-07-31",
+      "dateYear": 2000,
+      "dateMonth": "Jul",
+      "low": 10000,
+      "high": 11781,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-06-30",
+      "dateYear": 2000,
+      "dateMonth": "Jun",
+      "low": 10550,
+      "high": 12231,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-05-31",
+      "dateYear": 2000,
+      "dateMonth": "May",
+      "low": 10200,
+      "high": 11362,
+      "dividend": 13
+    },
+    {
+      "stringDate": "2000-04-28",
+      "dateYear": 2000,
+      "dateMonth": "Apr",
+      "low": 10125,
+      "high": 12800,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-03-31",
+      "dateYear": 2000,
+      "dateMonth": "Mar",
+      "low": 9950,
+      "high": 12825,
+      "dividend": 0
+    },
+    {
+      "stringDate": "2000-02-29",
+      "dateYear": 2000,
+      "dateMonth": "Feb",
+      "low": 10094,
+      "high": 11975,
+      "dividend": 12
+    },
+    {
+      "stringDate": "2000-01-31",
+      "dateYear": 2000,
+      "dateMonth": "Jan",
+      "low": 10962,
+      "high": 12475,
+      "dividend": 0
+    },
+    {
+      "stringDate": "1999-12-31",
+      "dateYear": 1999,
+      "dateMonth": "Dec",
+      "low": 10225,
+      "high": 12212,
+      "dividend": 0
+    }
+  ]
+}
