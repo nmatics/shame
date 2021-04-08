@@ -11,6 +11,7 @@ import getApplicableMonths from '../util/getApplicableMonths';
 import prettifyMoney from '../util/prettifyMoney';
 import createInvestment from '../util/createInvestment';
 import getPercentageChange from '../util/getPercentageChange';
+import SearchBar from './SearchBar';
 
 
 const apiKey = '1FK7ETAUURAS9ZJO';
@@ -28,6 +29,10 @@ function StockPage(){
   const [stock, setStock] = useState(null);
   const query = useQuery();
   const history = useHistory();
+
+  const navigateToStockPage = (symbol) => {
+    history.push(`/${symbol}`);
+  };
 
   const criteria = {
     year: query.get('year'),
@@ -84,8 +89,13 @@ function StockPage(){
     const months = [...applicableMonths].reverse();
     months.forEach((month) => investment.updateByMonth(month));
 
+    const clearCriteria = () => {
+        history.push(`/${symbol}`);
+    }
+
     return(
         <div className="stockPage">
+            <SearchBar onSelect={navigateToStockPage} />
             {!stock &&
               <h1>Loading...</h1>
             }
@@ -100,26 +110,32 @@ function StockPage(){
               <StockInformation stock={stock}/>
             }
             {hasCriteria && stock &&
-              <StockComparison
-                symbol={symbol}
-                name={stock.name}
+              <>
+                <button onClick={() => clearCriteria()}>Clear</button>
+                <StockComparison
+                  symbol={symbol}
+                  name={stock.name}
 
-                historicalPrice={prettifyMoney(oldestMonth.low)}
-                historicalLow={prettifyMoney(oldestMonth.low)}
-                historicalHigh={prettifyMoney(oldestMonth.high)}
+                  historicalPrice={prettifyMoney(oldestMonth.low)}
+                  historicalLow={prettifyMoney(oldestMonth.low)}
+                  historicalHigh={prettifyMoney(oldestMonth.high)}
 
-                currentPrice={prettifyMoney(todaysData.low)}
-                currentLow={prettifyMoney(todaysData.low)}
-                currentHigh={prettifyMoney(todaysData.high)}
+                  currentPrice={prettifyMoney(todaysData.low)}
+                  currentLow={prettifyMoney(todaysData.low)}
+                  currentHigh={prettifyMoney(todaysData.high)}
 
-                couldHaveMadeBank={todaysData.high > oldestMonth.low}
-                portfolioValue={investment.pretty().netWorth}
-                percentChange={getPercentageChange(initialInvestment, (investment.cash + investment.portfolioValue)).toFixed(2)}
-              />
+                  couldHaveMadeBank={todaysData.high > oldestMonth.low}
+                  portfolioValue={investment.pretty().netWorth}
+                  percentChange={getPercentageChange(initialInvestment, (investment.cash + investment.portfolioValue)).toFixed(2)}
+                />
+              </>
             }
         </div>
 
     )
+
+
+
 }
 
 export default StockPage;
