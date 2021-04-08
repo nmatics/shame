@@ -23,6 +23,10 @@ const StockComparison = ({
   historicalLow = "$104.25",
   historicalHigh = "$129.25",
 
+  currentPrice = "$123.24",
+  currentLow = "$104.25",
+  currentHigh = "$129.25",
+
   couldHaveMadeBank = false,
   percentChange = "21.3",
   portfolioValue = "$3,251,574",
@@ -64,9 +68,9 @@ const StockComparison = ({
         </article>
         <article className="comparison-current">
           <h3>Current</h3>
-          <p>Price: {historicalPrice}</p>
-          <p>Day Low: {historicalLow}</p>
-          <p>Day High: {historicalHigh}</p>
+          <p>Price: {currentPrice}</p>
+          <p>Day Low: {currentLow}</p>
+          <p>Day High: {currentHigh}</p>
         </article>
       </section>
 

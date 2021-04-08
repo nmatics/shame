@@ -1,6 +1,7 @@
 import './App.css';
-// import StockInformation from './Components/StockInformation';
-import SearchBar from './Components/SearchBar'
+import LandingPage from './Components/LandingPage';
+import StockPage from './Components/StockPage';
+import { Route } from 'react-router-dom';
 
 // const mockStock = require('./output.json');
 
@@ -8,7 +9,8 @@ import SearchBar from './Components/SearchBar'
 function App() {
   return (
     <div className="App">
-      <SearchBar/>
+      <Route exact path='/' component={ LandingPage } />
+      <Route path='/:symbol' component={ StockPage } />
     </div>
   );
 }
