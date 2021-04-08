@@ -4,7 +4,7 @@ import '../Styles/SearchBar.styles.css';
 const sp500 = require('../sp500.json');
 
 
-function SearchBar( {onSelect = console.log }){
+function SearchBar( {onSelect}){
 
 
     const [value, setValue] = useState('');

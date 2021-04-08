@@ -26,7 +26,9 @@ const StockCriteriaForm = ({ years, onSubmit }) => {
     });
   };
 
-  const yearOptions = years.map((year) => <option value={year}>{year}</option>);
+  const yearOptions = years.map((year) => (
+    <option key={year} value={year}>{year}</option>
+  ));
 
   return (
     <form>
