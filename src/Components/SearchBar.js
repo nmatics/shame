@@ -23,8 +23,8 @@ function SearchBar( {onSelect = console.log }){
         placeholder: "Type a symbol or company name"
     }
 
-    const sectors = sp500.reduceRight((sectors, company) =>{
-        const existingSector = sectors.find(x => x.title === company.Sector);
+    const sectors = sp500.reduce((sectors, company) =>{
+        const existingSector = sectors.find(x => x.title === company.Sector); 
         if (existingSector){
             existingSector.stocks.push(company);
             return sectors;
@@ -99,7 +99,6 @@ function SearchBar( {onSelect = console.log }){
 
     return(
         <div className="searchBar">
-            <p>This is the SearchBar</p>
             <Autosuggest 
                 onSuggestionSelected={onSuggestionSelected}
                 suggestions={suggestions}
