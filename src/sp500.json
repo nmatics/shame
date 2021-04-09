@@ -1646,7 +1646,11 @@
   "Name": "Simon Property Group Inc",
   "Sector": "Real Estate",
   "Symbol": "SPG"
-}, {
+},{
+  "Name": "Sirius XM Holdings Inc",
+  "Sector": "Communication Services",
+  "Symbol": "SIRI"
+},{
   "Name": "Skyworks Solutions",
   "Sector": "Information Technology",
   "Symbol": "SWKS"

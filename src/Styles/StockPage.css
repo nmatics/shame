@@ -1,0 +1,95 @@
+.stockPage{
+    margin: 1%;
+}
+
+.inputContainer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 3%; 
+}
+.searchBar{
+    padding: 0;
+    margin: none;
+    /* float: left; */
+}
+
+.userInputs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*start move to StockCriteria.css*/
+.inputForm{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputForm button{
+    height: 24px;
+    align-self: center;
+}
+.inputForm .slidecontainer{
+    margin: 5px;
+    
+}
+
+.clearButton{
+    margin-bottom: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 25px;
+}
+
+label, select, input{
+    margin: 5px;
+    font-size: 12pt;
+}
+input, select{
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+button{
+    border-radius: 5px;
+    border: solid black 1px;
+}
+/*end move to StockCriteria.css*/
+
+/* start move to stockInformation.css*/
+.stockInformation{
+    border: solid black 1px;
+    border-radius: 10px;
+    background: white;
+}
+
+.stockSymbol{
+    text-align: center;
+}
+
+.stockName{
+    text-align: center;
+}
+
+.stockSector{
+    text-align: center;
+}
+
+.companyInfo{
+    margin-left: 4%;
+}
+
+.stockDescription{
+    font-size: 10pt;
+    text-indent: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.stockValueInformation{
+    margin-left: 4%;
+    font-weight: bold;
+}
+
+/* end move to stockInformation.css*/

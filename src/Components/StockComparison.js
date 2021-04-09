@@ -1,3 +1,4 @@
+import '../Styles/StockComparison.css'
 const comparisonStyles = {
   display: "flex",
   flexDirection: "column",
@@ -13,32 +14,35 @@ const bodyStyles = {
 const gifStyle = {
   height: "150px",
   // width: "100px",
+  marginTop: "3%"
 };
 
 const StockComparison = ({
   name,
   symbol,
 
-  historicalPrice = "$123.24",
-  historicalLow = "$104.25",
-  historicalHigh = "$129.25",
+  historicalPrice,
+  historicalLow,
+  historicalHigh,
 
-  currentPrice = "$123.24",
-  currentLow = "$104.25",
-  currentHigh = "$129.25",
+  currentPrice,
+  currentLow,
+  currentHigh,
 
-  couldHaveMadeBank = false,
-  percentChange = "21.3",
-  portfolioValue = "$3,251,574",
+  couldHaveMadeBank,
+  percentChange,
+  portfolioValue,
+  cashOnHand,
+  totalProfit,
+  portfolioProfit
 }) => {
   const shameStyle = {
-    backgroundColor: couldHaveMadeBank ? "red" : "green",
+    backgroundColor: couldHaveMadeBank ? "tomato" : "green",
     width: "100%",
-    height: "100px",
   };
 
   return (
-    <div style={comparisonStyles}>
+    <div style={comparisonStyles} className="comparisonContainer">
       <section
         style={{
           textAlign: "center",
@@ -79,8 +83,11 @@ const StockComparison = ({
           <>
             <p>You missed out! SHAME SHAME SHAME</p>
             <p>
-              Portfolio Value: {portfolioValue}. Percentage increase:{" "}
-              {percentChange}%{" "}
+              Portfolio Value: {portfolioValue}<br/> <br/>
+              Percentage Increase: {percentChange}%<br/><br/>
+              Cash from Dividends: {cashOnHand}<br/><br/>
+              Portfolio Profit: {portfolioProfit} <br/><br/>
+              Total Profit: {totalProfit}
             </p>
           </>
         )}
@@ -88,8 +95,11 @@ const StockComparison = ({
           <>
             <p>You did well in not jumping on this sinking ship.</p>
             <p>
-              Portfolio Value: -{portfolioValue}. Percentage decrease: -
-              {percentChange}%
+              Portfolio Value: {portfolioValue} <br/><br/>
+              Percentage Decrease: {percentChange}%<br/><br/>
+              Cash from Dividends: {cashOnHand}<br/><br/>
+              Portfolio Loss: {portfolioProfit} <br/><br/>
+              Total Loss: {totalProfit}
             </p>
           </>
         )}

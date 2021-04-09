@@ -12,6 +12,7 @@ import prettifyMoney from '../util/prettifyMoney';
 import createInvestment from '../util/createInvestment';
 import getPercentageChange from '../util/getPercentageChange';
 import SearchBar from './SearchBar';
+import '../Styles/StockPage.css'
 
 
 const apiKey = '1FK7ETAUURAS9ZJO';
@@ -95,10 +96,9 @@ function StockPage(){
 
     return(
         <div className="stockPage">
+          <div className="inputContainer">
             <SearchBar onSelect={navigateToStockPage} />
-            {!stock &&
-              <h1>Loading...</h1>
-            }
+            <div className="userInputs">
             {stock &&
               <StockCriteriaForm
                 onSubmit={({ year, month, investmentCapital, dividendPercent }) =>
@@ -106,12 +106,20 @@ function StockPage(){
                 years={getYearsFromApiResponse(stock.historicalByMonth)}
               />
             }
+            </div>
+            {hasCriteria && stock && <button className="clearButton" onClick={() => clearCriteria()}>Clear Inputs</button>}
+          </div>
+           
+            {!stock &&
+              <h1>Loading...</h1>
+            }
+            
             {!hasCriteria && stock &&
               <StockInformation stock={stock}/>
             }
             {hasCriteria && stock &&
               <>
-                <button onClick={() => clearCriteria()}>Clear</button>
+                {/* <button onClick={() => clearCriteria()}>Clear</button> */}
                 <StockComparison
                   symbol={symbol}
                   name={stock.name}
@@ -127,6 +135,9 @@ function StockPage(){
                   couldHaveMadeBank={todaysData.high > oldestMonth.low}
                   portfolioValue={investment.pretty().netWorth}
                   percentChange={getPercentageChange(initialInvestment, (investment.cash + investment.portfolioValue)).toFixed(2)}
+                  cashOnHand={investment.pretty().cash}
+                  portfolioProfit={prettifyMoney(investment.portfolioValue - initialInvestment)}
+                  totalProfit={prettifyMoney(investment.portfolioValue+investment.cash - initialInvestment)}
                 />
               </>
             }

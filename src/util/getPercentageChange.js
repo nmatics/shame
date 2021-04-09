@@ -1,3 +1,7 @@
 export default function getPercentageChange(start, end) {
-  return ((end - start) / start) * 100;
+  const percentageChange = ((end - start) / start) * 100;
+  if(isNaN(percentageChange)){
+    return 0;
+  }
+    return percentageChange;
 }
