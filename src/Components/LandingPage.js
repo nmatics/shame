@@ -1,5 +1,7 @@
 import SearchBar from './SearchBar'
 import { useHistory } from 'react-router-dom';
+import '../Styles/LandingPage.css'
+import '../Styles/SearchBar.styles.css'
 
 function LandingPage (){
     let history = useHistory();
@@ -8,7 +10,9 @@ function LandingPage (){
     };
     return (
         <div className="landingPage">
-            <h1>Stock Shame Calculator</h1>
+            <div className="header">
+                <h1>Stock Shame Calculator</h1>
+            </div>
             <SearchBar onSelect={navigateToStockPage}/>
         </div>
 

@@ -1,0 +1,27 @@
+.shame{
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 15px;
+    box-shadow: gray 0px 3px;
+    font-size: 16pt;
+}
+
+.comparisonContainer{
+}
+.comparison-body{
+    /*correct this to the correct wireframe one*/
+    font-family: Cousine;
+    border: solid black 3px;
+    margin-bottom: 1%;
+    background: white;
+}
+
+.comparison-title{
+    font-size: 16pt;
+    background: white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 2px;
+    border-radius: 5px;
+}

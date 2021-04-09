@@ -31,49 +31,54 @@ const StockCriteriaForm = ({ years, onSubmit }) => {
   ));
 
   return (
-    <form>
-      <select name="month" value={state.month} onChange={handleChange}>
-        <option value="Jan">Jan</option>
-        <option value="Feb">Feb</option>
-        <option value="Mar">Mar</option>
-        <option value="Apr">Apr</option>
-        <option value="May">May</option>
-        <option value="Jun">Jun</option>
-        <option value="Jul">Jul</option>
-        <option value="Aug">Aug</option>
-        <option value="Sep">Sep</option>
-        <option value="Oct">Oct</option>
-        <option value="Nov">Nov</option>
-        <option value="Dec">Dec</option>
-      </select>
-      <select name="year" value={state.year} onChange={handleChange}>
-        {yearOptions}
-      </select>
-      <input
-        type="number"
-        value={state.investmentCapital}
-        placeholder="Investment amount"
-        name="investmentCapital"
-        step="0.01"
-        min="0.00"
-        onChange={handleChange}
-      ></input>
-      <br />
-      <div className="slidecontainer">
-        <label>Dividend Reinvestment</label>
+    <form className="inputForm">
+      <label for="month">Month:&nbsp;
+        <select name="month" value={state.month} onChange={handleChange}>
+          <option value="Jan">Jan</option>
+          <option value="Feb">Feb</option>
+          <option value="Mar">Mar</option>
+          <option value="Apr">Apr</option>
+          <option value="May">May</option>
+          <option value="Jun">Jun</option>
+          <option value="Jul">Jul</option>
+          <option value="Aug">Aug</option>
+          <option value="Sep">Sep</option>
+          <option value="Oct">Oct</option>
+          <option value="Nov">Nov</option>
+          <option value="Dec">Dec</option>
+        </select>
+      </label>
+      <label for="year">Year:&nbsp;
+        <select name="year" value={state.year} onChange={handleChange}>
+          {yearOptions}
+        </select>
+      </label>
+      <label for="investmentCapital">Investment Capital:&nbsp;
         <input
-          type="range"
-          value={state.dividendPercent}
-          min="0"
-          max="100"
-          className="slider"
-          name="dividendPercent"
-          id="myRange"
+          type="number"
+          value={state.investmentCapital}
+          placeholder="Investment amount"
+          name="investmentCapital"
+          step="0.01"
+          min="0.00"
           onChange={handleChange}
-        />
-        <span>{state.dividendPercent}%</span>
-      </div>
+        ></input>
+      </label>
+        <label>Dividend Reinvestment:&nbsp;
+          <input
+            type="range"
+            value={state.dividendPercent}
+            min="0"
+            max="100"
+            className="slider"
+            name="dividendPercent"
+            id="myRange"
+            onChange={handleChange}
+          />
+          <span>{state.dividendPercent}%</span>
+        </label>
       <button type="submit" onClick={handleSubmit}>
+      
         Submit{" "}
       </button>
     </form>

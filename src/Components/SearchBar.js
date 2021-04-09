@@ -20,7 +20,7 @@ function SearchBar( {onSelect}){
             setValue(event.target.value)
         }, 
         type: "search",
-        placeholder: "Type a symbol or company name"
+        placeholder: "Type a symbol, company name, or sector"
     }
 
     const sectors = sp500.reduce((sectors, company) =>{

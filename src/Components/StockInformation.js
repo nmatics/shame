@@ -4,17 +4,20 @@ function StockInformation({stock}){
         <div className="stockInformation">
             <h1 className='stockSymbol'>{stock.symbol}</h1>
             <h2 className='stockName'>{stock.name}</h2>
-            <h4 className='stockSector'>Sector: &nbsp;{stock.sector}</h4>
-            <p className='stockDescription'>Company Information: &nbsp;<br/>{stock.description}</p>
-            <h4 className='stockYear'>52 Week High/Low: &nbsp; 
-                {prettifyMoney(stock.yearLow)} - 
-                {prettifyMoney(stock.yearHigh)}</h4>
-            <h4 className='stockDaily'>Daily High/Low: &nbsp;
-                {prettifyMoney(stock.historicalByMonth[0].low)} - 
-                {prettifyMoney(stock.historicalByMonth[0].high)}</h4>
-            <h4 className='stockMarketCap'>Market Cap: &nbsp;
-                {prettifyMoney(stock.marketCap)}</h4>
-            <h4 className='stockExchange'>Exchange: &nbsp;{stock.exchange}</h4>
+            <h3 className='stockSector'>Sector: &nbsp;{stock.sector}</h3>
+            <h4 className='companyInfo'>Company Information: &nbsp;</h4>
+            <p className="stockDescription">{stock.description}</p>
+            <div className="stockValueInformation">
+                <p className='stockYear'>52 Week Low/High: &nbsp; 
+                    {prettifyMoney(stock.yearLow)} - 
+                    {prettifyMoney(stock.yearHigh)}</p>
+                <p className='stockDaily'>Daily Low/High: &nbsp;
+                    {prettifyMoney(stock.historicalByMonth[0].low)} - 
+                    {prettifyMoney(stock.historicalByMonth[0].high)}</p>
+                <p className='stockMarketCap'>Market Cap: &nbsp;
+                    {prettifyMoney(stock.marketCap)}</p>
+                <p className='stockExchange'>Exchange: &nbsp;{stock.exchange}</p>
+            </div>
         </div>
     )
 }
